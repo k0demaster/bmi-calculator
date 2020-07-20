@@ -1,0 +1,12 @@
+#This is a bmi calculator which displays your bmi and bmi status
+height = float(input("What is your height in metres"))
+m2 = (height*2)
+weight = float(input("What is your wieght"))
+bmi = weight/m2
+print (bmi)
+if bmi > 25.0:
+    print ("Your bmi is equal to: ", bmi)
+    print ("And you fall in the over wieght status")
+if bmi < 25.0:
+    print ("Your bmi is equal to: ", bmi)
+    print ("And you fall into the healthy category")
